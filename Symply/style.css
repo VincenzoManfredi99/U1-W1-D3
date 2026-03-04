@@ -25,10 +25,6 @@ header img {
     padding: 0;
 }
 
-h1.center:first-of-type {
-    text-align: center;
-}
-
 main h1:first-of-type {
     text-align: center;
 }
