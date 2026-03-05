@@ -1,14 +1,22 @@
 body {
   margin: 0;
 }
+
+p {
+    margin: 1em 0;
+}
+
 header img {
   width: 50%;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 #titolo {
   text-align: center;
-  padding: 0.1em;
+  }
+
+#weight {
+    font-weight: 900;
 }
 
 #logo {
@@ -25,20 +33,21 @@ header img {
   padding: 0;
 }
 
-main h1:first-child {
+main> h1:first-child {
   text-align: center;
 }
 
 #titolo {
   background-color: #fdfbf1;
   border-top: 2px solid #ffd878;
+  padding: 0.1em 0;
+  color: #004b4a;
 }
 
 #video {
-  border-radius: 20px;
+  border-radius: 10px;
   width: 100%;
-  height: auto;
-  box-shadow: 0px 0px 10px rgb(77, 77, 77);
+  box-shadow: 0px 0px 5px rgb(77, 77, 77);
 }
 
 figcaption {
@@ -57,6 +66,7 @@ figure {
   border-left: 2px solid #ffd878;
   margin-top: 1.5em;
   padding-left: 1em;
+  margin-bottom: 5em;
 }
 
 #arancio {
@@ -70,4 +80,34 @@ figure {
   padding: 0;
   color: #097373;
   text-decoration: underline;
+}
+
+section h1 {
+    font-weight: 100;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #bff2f1;
+}
+
+ol,ul {
+    margin: 0 2em;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}
+
+li {
+    margin: 1em;
+}
+
+#corollario {
+    margin: 1em 3em;
 }
